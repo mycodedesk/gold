@@ -763,7 +763,7 @@ ol {
 -----------------------*/
 
 .pricing-section {
-	background: #151515;
+	background: black;
 }
 
 .pricing-section .section-title {
@@ -3275,4 +3275,14 @@ ol {
 }
 .cs-item p{
 	color: black;
+}
+.secure{
+	background-color: gold;
+	border-color: gold;
+	justify-content: center;
+	text-transform: uppercase;
+}
+.secure a {
+	color: black;
+	text-transform: uppercase;
 }

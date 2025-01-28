@@ -3286,3 +3286,40 @@ ol {
 	color: black;
 	text-transform: uppercase;
 }
+
+.slider-container {
+	width: 300px;
+	margin: 50px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.slider {
+	width: 1200px; /* 4 images * 300px */
+	transition: transform 1s ease-in-out;
+	display: flex;
+}
+
+.slide {
+	width: 300px;
+	flex-shrink: 0;
+	/* CRUCIAL: Define a height for the slide */
+	height: 200px; /* Example height - adjust as needed */
+	position: relative; /* Needed for absolute positioning of the image */
+	box-sizing: border-box;
+}
+
+.slide img {
+	object-fit: contain; /* Or cover, depending on your preference */
+	position: absolute; /* Position image within the slide */
+	top: 0;
+	left: 0;
+}
+/* or if you want images of different heights*/
+.slide img {
+	height: auto; /* Now works correctly! */
+	object-fit: contain; /* Or cover, depending on your preference */
+	position: absolute; /* Position image within the slide */
+	top: 0;
+	left: 0;
+}

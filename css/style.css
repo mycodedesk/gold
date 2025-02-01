@@ -3297,7 +3297,7 @@ ol {
 .slider {
 	width: 1200px; /* 4 images * 300px */
 	transition: transform 1s ease-in-out;
-	display: flex;
+	display:flex;
 }
 
 .slide {

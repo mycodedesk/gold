@@ -3333,7 +3333,7 @@ s{
  #whatsapp-button {
 	position: fixed;
 	bottom: 20px; /* distance from bottom */
-	right: 20px; /* distance from right */
+	right: 18px; /* distance from right */
 	
 	
 	padding: 15px;
@@ -3363,8 +3363,9 @@ s{
 }
 
 #insta-button img {
-	width: 50px; /* size of the WhatsApp icon */
-	height: 50px;
+	width: 43px; /* size of the WhatsApp icon */
+	height: 43px;
+	border-radius: 15px;
 }
 
 #insta-button:hover {

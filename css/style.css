@@ -3328,3 +3328,24 @@ s{
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+ /* WhatsApp Sticky Button CSS */
+ #whatsapp-button {
+	position: fixed;
+	bottom: 20px; /* distance from bottom */
+	right: 20px; /* distance from right */
+	
+	
+	padding: 15px;
+	
+	z-index: 1000;
+}
+
+#whatsapp-button img {
+	width: 50px; /* size of the WhatsApp icon */
+	height: 50px;
+}
+
+#whatsapp-button:hover {
+	transform: scale(1.1); /* Slightly enlarge on hover */
+}

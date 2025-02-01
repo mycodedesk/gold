@@ -3349,3 +3349,24 @@ s{
 #whatsapp-button:hover {
 	transform: scale(1.2); /* Slightly enlarge on hover */
 }
+
+ /* Instagram Sticky Button CSS */
+ #insta-button {
+	position: fixed;
+	bottom: 80px; /* distance from bottom */
+	right: 20px; /* distance from right */
+	
+	
+	padding: 15px;
+	
+	z-index: 1000;
+}
+
+#insta-button img {
+	width: 50px; /* size of the WhatsApp icon */
+	height: 50px;
+}
+
+#insta-button:hover {
+	transform: scale(1.2); /* Slightly enlarge on hover */
+}
